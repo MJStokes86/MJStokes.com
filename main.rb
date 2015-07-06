@@ -1,10 +1,14 @@
-require 'sinatra/base'
+require 'sinatra'
 
-class MyApp < Sinatra::Base
+set :views, File.dirname(__FILE__) + '/views'
+set :public_folder, File.dirname(__FILE__) + '/public'
+
+
+
 
 get '/' do 
 
-File.read('index.html')
-end
+erb :index
 
 end
+
