@@ -1,0 +1,65 @@
+body {
+	background-color:#3C4142;
+}
+
+header {
+	font-family: 'Six Caps', sans-serif;
+	color: white;
+	font-size: 50px;
+	position: absolute;
+	left: 20%;
+}
+
+footer{
+	position: relative;
+	bottom:0;
+	margin:0 auto;
+
+
+}
+
+a {
+	color:white;
+	text-decoration: none;
+	font-family: 'Six Caps', sans-serif;
+	font-size: 45px;
+
+}
+
+img {
+	border: solid #1192C2 10px;
+
+}
+
+.container{
+	color: white;
+	
+}
+
+
+
+#div3 {
+	left:50%;
+	position: absolute;
+}
+
+#div4 {
+	width: 650px;
+	word-wrap: break-word;
+}
+
+#div5 {
+	width: 250px;
+	word-wrap: break-word;
+	position: absolute;
+	left: 70%;
+	top:18em;
+}
+
+#div7 {
+	width: 250px;
+	word-wrap: break-word;
+	position: absolute;
+	left: 25%;
+	top:24em;
+}
