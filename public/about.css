@@ -46,6 +46,7 @@ img {
 #div4 {
 	width: 650px;
 	word-wrap: break-word;
+
 }
 
 #div5 {
@@ -61,5 +62,5 @@ img {
 	word-wrap: break-word;
 	position: absolute;
 	left: 25%;
-	top:24em;
+	top:27em;
 }
