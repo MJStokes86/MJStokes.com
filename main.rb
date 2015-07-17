@@ -14,8 +14,8 @@ get '/about' do
 erb :about
 end
 
-get '/projects' do
-erb :projects
+get '/portfolio' do
+erb :portfolio
 end
 
 get '/contact'  do
