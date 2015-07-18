@@ -11,6 +11,29 @@
 <script type='text/javascript'>
 $(function(){
 
+ 		$('body').css('display', 'none');
+		$('body').fadeIn(1000);
+		$('img').css('display', 'none');
+		$('img').fadeIn(1000);
+		
+
+
+
+		$('a').click(function(){
+			event.preventDefault();
+			newLocation = this.href;
+
+			$('body').fadeOut(1000, newpage);
+			$('img').fadeOut(1000, newpage);
+
+
+		})
+
+		function newpage() {
+			window.location = newLocation
+		}
+
+
 	$('a').hover(
 
 		function(){
@@ -22,7 +45,7 @@ $(function(){
 	});
 
 
-
+       
 });
 
 </script>

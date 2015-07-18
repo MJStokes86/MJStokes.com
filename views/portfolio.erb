@@ -12,6 +12,21 @@
 <script type='text/javascript'>
 $(function(){
 
+		$('body').css('display', 'none');
+		$('body').fadeIn(1000);
+
+		$('a').click(function(){
+			event.preventDefault();
+			newLocation = this.href;
+
+			$('body').fadeOut(1000, newpage);
+		})
+
+		function newpage() {
+			window.location = newLocation
+		}
+
+
 	$('a').hover(
 
 		function(){
@@ -37,7 +52,8 @@ $(function(){
 <body>
 
 <div class='container'>
-<div id='div1'><a href='https://namethattube.herokuapp.com/'><img src='http://i.imgur.com/PJi7bcc.png' height='200' width='200'></a><header><a href='https://namethattube.herokuapp.com/'>Name That Tube</a></header><p> A <span style='color:#1192C2'>Ruby on Rails</span> YouTube-based trivia game that gives a player a series of questions to answer. The player is also given a 3 sec video clue the player must identify to solve the question. The game is inspired by the classic game show called 'Name That Tune!'. <span style='color:#1192C2'>USERNAME: Guest PASSWORD: 12345</span></p>
+<div id='div1'><a href='https://namethattube.herokuapp.com/'><img src='http://i.imgur.com/PJi7bcc.png' height='200' width='200'></a><header><a href='https://namethattube.herokuapp.com/'>Name That Tube</a></header><p> A <span style='color:#1192C2'>Ruby on Rails</span> YouTube-based trivia game that gives a player a series of questions to answer. The player is also given a 3 sec video clue the player must identify to solve the question. The game is inspired by the classic game show called 'Name That Tune!'. <span style='color:#1192C2'>USERNAME: Guest PASSWORD: 12345</span>
+<a href='https://github.com/MJStokes86/Project-4-Name_That_Tube'>View Code Here</a></p>
 
 <center>Ruby on Rails <span style='color:#1192C2'>|</span> PostgreSQL <span style='color:#1192C2'>|</span> jQuery <span style='color:#1192C2'>|</span> HTML5/CSS3</center>
 
