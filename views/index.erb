@@ -46,11 +46,11 @@ function rotator() {
 		oNxtPhoto = $('#slider div:first');
 	
 	oCurPhoto.removeClass('current').addClass('previous');
-	oNxtPhoto.css({opcacity: 0.0}).addClass('current')
-	.animate({opacity:1}, 3000,
-		function() {
-			oCurPhoto.removeClass('previous');
-		 });
+	oNxtPhoto.css({ opcacity: 0.0 }).addClass('current')
+	.animate({ opacity:1.0 }, 1000,
+     function() {
+     oCurPhoto.removeClass('previous');
+     });
 }
 
 
