@@ -1,8 +1,15 @@
+
+
 require 'sinatra'
+require 'rubygems'
+require 'bundler/setup'
+
+
+
+
 
 set :views, File.dirname(__FILE__) + '/views'
 set :public_folder, File.dirname(__FILE__) + '/public'
-
 
 
 
@@ -21,6 +28,5 @@ end
 get '/contact'  do
 erb :contact
 end
-
 
 
