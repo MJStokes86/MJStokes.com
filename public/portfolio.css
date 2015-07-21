@@ -80,11 +80,11 @@ img:hover {
    body { font-size: 2em; }
 
    .container header{
-   	font-size: -1em;
+   	font-size: 0.5em;
    }
 
    #page-header {
-   	font-size: -1em;
+   	font-size: 0.5em;
    }
 
 }
