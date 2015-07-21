@@ -92,6 +92,7 @@ img:hover {
    }
 
    .container {
+   	position: absolute;
    	top: 5em;
    }
 
