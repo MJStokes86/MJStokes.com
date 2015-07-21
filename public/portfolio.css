@@ -77,7 +77,6 @@ img:hover {
 
 @media only screen and (max-width: 320px) {
 
-   body { font-size: 0.5em; }
 
    .container header{
    	font-size: 1.5em;
@@ -94,6 +93,7 @@ img:hover {
    .container {
    	position: absolute;
    	top: 3em;
+   	font-size:1em;
    }
 
 }
