@@ -91,4 +91,8 @@ img:hover {
    	font-size: 1.3em;
    }
 
+   .container {
+   	top: 5em;
+   }
+
 }
