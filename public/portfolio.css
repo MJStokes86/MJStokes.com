@@ -77,18 +77,18 @@ img:hover {
 
 @media only screen and (max-width: 320px) {
 
-   body { font-size: 2em; }
+   body { font-size: 1em; }
 
    .container header{
    	font-size: 1.5em;
    }
 
    #page-header {
-   	font-size: 1em;
+   	font-size: 0.5em;
    }
 
    footer{
-   	font-size: 1em;
+   	font-size: 0.5em;
    }
 
 }
