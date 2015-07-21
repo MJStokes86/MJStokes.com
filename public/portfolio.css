@@ -6,7 +6,7 @@ background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('http
 
 #page-header{
 	font-family:'Six Caps', sans-serif;
-	font-size: 50px;
+	font-size: 20px;
 	color: white;
 	text-align: center;
 	background-color: black;
@@ -15,7 +15,7 @@ background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('http
 footer {
 	text-align: center;
 	font-family: 'Six Caps' sans-serif;
-	font-size: 50px;
+	font-size: 20px;
 	color:#1192C2;
 	background-color: black;
 	width: 100%;
@@ -54,7 +54,7 @@ img:hover {
 
 .container header{
 	font-family:'Six Caps', sans-serif;
-	font-size: 50px;
+	font-size: 20px;
 	color:white;
 	text-align: center;
 
