@@ -2,12 +2,15 @@
 <html lang='en'>
 <head>
 <meta charset='UTF-8'>
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+
 	<title>mjstokes.com</title>
 	<link type='text/css' rel='stylesheet' href = "index.css">
 	<link href='http://fonts.googleapis.com/css?family=Six+Caps' rel='stylesheet' type='text/css'>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.js"></script>
 	<script type='text/javascript'>
-	$(function(){
+
+		$(function(){
 
 		$('body').css('display', 'none');
 		$('body').fadeIn(1000);
@@ -33,88 +36,60 @@
 		$(this).css('color', 'white')
 	});
 
-
-     setInterval('rotator()', 3000)
-
-	});
+});
 
 
-function rotator() {
-	var oCurPhoto = $('#slider div.current');
-	var oNxtPhoto = oCurPhoto.next();
-	if (oNxtPhoto.length == 0)
-		oNxtPhoto = $('#slider div:first');
-	
-	oCurPhoto.removeClass('current').addClass('previous');
-	oNxtPhoto.css({ opcacity: 0.0 }).addClass('current')
-	.animate({ opacity:1.0 }, 1000,
-     function() {
-     oCurPhoto.removeClass('previous');
-     });
-}
-
-
-</script> 
-
-	
-
-</head>
-
-
-<header class='header'>
-<center>
-<p>Michael J. Stokes<p>
-</center>
-</header>
+	</script>
 
 
 <body>
-<div class='center'>
-<h1 id='left'>Web Development</h1>
-<h1 id= 'right'>Web Design</h1>
-<div id='slider'>
-<div class="current"><img src="http://i.imgur.com/qliOhvp.jpg
 
-" height='200' width='200'></div>
+<div class='header'>
+<div class = 'home-menu pure-menu pure-menu-horizontal pure-menu-fixed'>
 
- <div><img src="http://i.imgur.com/JR4lk6p.jpg
-" height='200' width='200'></div>
+<p class='name'>Michael J. Stokes</p>
 
- <div><img src="http://i.imgur.com/JR4lk6p.jpg
-" height='200' width='200'></div>
+<ul class= "pure-menu-list">
+<li class = "pure-menu-item pure-menu-selected"><a href="/" class='pure-menu-link'>Home</a></li>
+<li class="pure-menu-item"><a href="/about" class='pure-menu-link'>About</a></li>
+<li class='pure-menu-item'><a href='/portfolio' class="pure-menu-link">Work</a></li>
+<li class='pure-menu-item'><a href="/contact" class='pure-menu-link'>Contact</a></li>
+</ul>
+</div>
+</div>
 
- <div><img src="http://i.imgur.com/XhZ9jAr.jpg" height='200' width='200'></div>
+<div class='splash-container'>
+<div class='splash'>
 
- <div><img src="http://i.imgur.com/Kpw5hEr.jpg" height='200' width='200'></div>
+<video width='512' height='288' id="splashvid" preload='none' autoplay loop muted>
 
- <div><img src="http://i.imgur.com/OM4cbOQ.jpg" height='200' width='200'></div>
 
- <div><img src="http://i.imgur.com/Ols0Lra.jpg" height='200' width='200'></div>
 
- <div><img src="http://i.imgur.com/GvvtutB.jpg" height='200' width='200'></div>
+<source src="/video/sweeping_view.mp4" type="video/mp4">
+<source src="/video/sweeping_view.ogv" type="video/ogv">
+<source src="/video/sweeping_view.webm" type="video/webm">
 
- <div><img src="http://i.imgur.com/kiSSpTB.png" height='200' width='200'></div>
+
+
+
+</video>
 
 
 </div>
 </div>
+<div class='pure-g'>	
 
 
 
 
+<div class='footer 1-box is-center'>
+
+</div>
+</div>
 
 
 </body>
 
 
-<footer class='footer'>
-<center>
-<div class='divide_blue'>
-<p> <a href='/about'>About</a> | <a href='/portfolio'>Work</a> | <a href='/contact'>Contact</a> </p>
-</div>
-</div>
-</div>
-</center>
-</footer>
-<script type="text/javascript" src='main.js'></script>
+
 </html>

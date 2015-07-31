@@ -2,7 +2,7 @@ body {
 	background-color:#222424;
 }
 
-header {
+.header {
 	text-align: center;
 	font-family: 'Six Caps' sans-serif;
 	font-size: 50px;
@@ -17,7 +17,7 @@ header {
 	top:0;
 }
 
-footer {
+.footer {
 	text-align: center;
 	font-family: 'Six Caps' sans-serif;
 	font-size: 50px;
