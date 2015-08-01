@@ -1,36 +1,67 @@
 body {
-	background-color:#222424;
+	background-color:#1192C2;
 }
 
-.header {
-	text-align: center;
-	font-family: 'Six Caps' sans-serif;
-	font-size: 50px;
+.home-menu {
+	padding-top:-1.5em;
 	color:white;
-	padding: 10px 20px;
-	background-color: black;
-	width: 100%;
-	margin: 0 auto;
-	height:100px;
-	position: fixed;
+	font-size:200%;
+	background-color: #222424;
+	position:fixed;
+	text-align: left;
+	top:0;
 	left:0;
+	width:100%;
+	margin:auto;
+
+
+}
+
+
+.footer  {
+	padding-bottom: 50px;
+	background-color: #222424;
+	position:fixed;
+ 	left:0;
+ 	bottom: 0;
+ 	width: 100%;
+ 	margin: 0 auto;
+
+}
+
+
+.pure-menu-item a{
+	
+	background:none;
+	text-decoration: none;
+	color:white;
+}
+
+.home-menu ul{
+	float:right;
+	
+
+
+}
+
+#Contact-Michael{
+	float:left;
+	color:white;
+	font-family: 'Six Caps', sans-serif;
+	font-size:90%;
+	letter-spacing: 0.5em;
 	top:0;
 }
 
-.footer {
-	text-align: center;
-	font-family: 'Six Caps' sans-serif;
-	font-size: 50px;
-	color:#1192C2;
-	padding: 10px 20px;
-	background-color: black;
-	width: 100%;
-	margin: 0 auto;
-	height:60px;
-	position: fixed;
-	left:0;
-	bottom:0;
+.pure-menu-item {
+	display:inline-block;
+	font-family: "Six Caps", sans-serif;
+	letter-spacing: normal;
+	background:none;
+	
+
 }
+
 
 a {
 	color:white;

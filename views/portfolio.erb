@@ -42,7 +42,7 @@ $(function(){
 	$('a').hover(
 
 		function(){
-			$(this).css('color', '#1192C2')
+			$(this).css('color', 'black')
 		},
 		function(){
 			$(this).css('color',  'white')
@@ -53,8 +53,22 @@ $(function(){
 </script>
 </head>
 
+<div class='header'>
+<div class = 'home-menu pure-menu pure-menu-horizontal pure-menu-fixed'>
 
-<header id='page-header'><center><p>Michael J. Stokes <span style='color:#1192C2'>|</span> Portfolio</p></center></header>
+<p id='Michael-Portfolio'>Michael J. Stokes <span style='color:#1192C2'>|</span> Portfolio</p>
+
+<ul class= "pure-menu-list">
+<li class = "pure-menu-item"><a href="/" class='pure-menu-link'>Home</a></li>
+
+<li class="pure-menu-item"><a href="/about" class='pure-menu-link'>About</a></li>
+<li class='pure-menu-item pure-menu-selected'><a href='/portfolio' class="pure-menu-link"><span style='color:#1192C2'>Work</span></a></li>
+<li class='pure-menu-item'><a href="/contact" class='pure-menu-link'>Contact</a></li>
+</ul>
+</div>
+</div>
+
+<header id='Contact-Michael'><center><p>Michael J. Stokes <span style='color:#1192C2'>|</span> Portfolio</p></center></header>
 <body>
 
 
@@ -62,7 +76,7 @@ $(function(){
 <div class='pure-g'>	
 <center>
 <div id='div1'><div class='pure-u-1-2'><a href='https://namethattube.herokuapp.com/'><img src='http://i.imgur.com/PJi7bcc.png' height='100' width='100'></a><header>Name That Tube</header><p><center>A <span style='color:#1192C2'>Ruby on Rails</span> YouTube-based trivia game that gives a player a series of questions to answer. The player is also given a 3 sec video clue the player must identify to solve the question. The game is inspired by the classic game show called 'Name That Tune!'. <span style='color:#1192C2'>USERNAME: Guest PASSWORD: 12345</span>
-<a href='https://github.com/MJStokes86/Project-4-Name_That_Tube'>View Code Here</a></center></p>
+<a href='https://github.com/MJStokes86/Project-4-Name_That_Tube'><span style='color:#1192C2'>View Code Here</span></a></center></p>
 </center>
 </div>
 
@@ -74,13 +88,7 @@ $(function(){
 </div>
 
 
+<div class='footer 1-box is-center'>
+</div>
 </body>
-
-<footer>
-<center>
-<div class='divide_blue'>
-<a href='/'>Home</a>  | <a href='/about'>About</a> | <a href='/contact'>Contact</a>
-</div> 
-</center>
-</footer>
 </html>

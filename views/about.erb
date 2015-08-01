@@ -4,6 +4,9 @@
 <meta charset='UTF-8'>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
+<title>About</title>
+
+
 <link type='text/css' rel='stylesheet' href='about.css'>
 <link href='http://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
 
@@ -13,9 +16,6 @@
 
 <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-old-ie-min.css">
 
-
-<title>About</title>
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.js"></script>
 
 
@@ -24,8 +24,6 @@ $(function(){
 
  		$('body').css('display', 'none');
 		$('body').fadeIn(1000);
-		$('img').css('display', 'none');
-		$('img').fadeIn(1000);
 		
 
 
@@ -35,7 +33,6 @@ $(function(){
 			newLocation = this.href;
 
 			$('body').fadeOut(1000, newpage);
-			$('img').fadeOut(1000, newpage);
 
 
 		})
@@ -48,10 +45,11 @@ $(function(){
 	$('a').hover(
 
 		function(){
-			$(this).css('color', '#1192C2')
+			$(this).css('color', 'black')
 		},
 		function(){
-			$(this).css('color',  'white')
+		
+			$(this).css('color', 'white')
 
 	});
 
@@ -63,29 +61,44 @@ $(function(){
 </head>
 
 
+<body>
+
+<div class='header'>
+<div class = 'home-menu pure-menu pure-menu-horizontal pure-menu-fixed pure-menu-custom'>
+
 <p id='About-Michael'>About <span style='color:#1192C2'>|</span> Michael J. Stokes</p>
 
+<ul class= "pure-menu-list">
+<li class = "pure-menu-item "><a href="/" class='pure-menu-link'>Home</a></li>
+<li class="pure-menu-item pure-menu-selected"><a href="/about" class='pure-menu-link'><span style='color:#1192C2'>About</span></a></li>
+<li class='pure-menu-item'><a href='/portfolio' class="pure-menu-link">Work</a></li>
+<li class='pure-menu-item'><a href="/contact" class='pure-menu-link'>Contact</a></li>
+</ul>
+</div>
+</div>
+
+
  
  
 
-<body>
+
 
 	
 
-<div class='container'>
 <div class='pure-g'>	
+<div class='container'>
 
 
 
 <center>
-<div id='div1'> <div class='pure-u-1-2' ><p>I am a Web Developer and Web Designer from North Carolina based in New York City. I create sites that are user friendly, clean, and interactive. I use front-end technologies but my strongest skills are in Ruby, HTML5/CSS, and jQuery. I also do back-end development with Ruby on Rails and PostgreSQL.</p>
+<div id='div1'> <div class='pure-u-1-2' ><p>I am a Web Developer and Web Designer from North Carolina based in New York City. I create sites that are user friendly, clean, and interactive. I use front-end technologies in Ruby, HTML5/CSS, and jQuery. I also do back-end development with Ruby on Rails and PostgreSQL.</p>
 
 <p>I graduated from General Assembly's Web Development Immersive program which took place in New York City for 12 weeks. During the course I experienced lots of frustration, and stress from learning code and applying them into web applications.    General Assembly has gave me the mentality of a working as a Web Developer in the real world and I'm very grateful for that experience. General Assembly had opened up a whole new world for me. My classmates and I have grown so close to each other and consider ourselves family. I never knew how much I love eating bagels in the mornings and drinking hard apple cider during Happy Hour.</p>  <p>While I'm not coding, I love watching YouTube, Google, eating out, exploring the city, and having fun with my former classmates. I love travel and my dream is a roadtrip to visit every diner, dives, and drive-ins in the USA.  I am currently available for freelancing and full-time opportunities whether it's based in New York or remote. If you are interested in hiring me for your next project please <a href='/contact'>Contact Me</a> and we'll work from there. Looking forward to become a valuable service to you!</p>
 
 <br>
 <br>
 
-<ul>
+<ul class='skills'>
 <h1><li>Ruby on Rails</li></h1>
 <h1><li>Sinatra</li><h1>
 <h1><li>PostgreSQL</li></h1>
@@ -103,9 +116,6 @@ $(function(){
 </div>
 </div>
 
-<div class='blue-divider'>
-<p id='links'><a href='/'>Home</a> | <a href='/portfolio'>Work</a> | <a href='/contact'>Contact</a></p>
-</div>
 
 
 
@@ -115,7 +125,8 @@ $(function(){
 
 
 
-
+<div class='footer 1-box is-center'>
+</div>
 
 
 

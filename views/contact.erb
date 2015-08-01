@@ -4,6 +4,12 @@
 <meta charset='UTF-8'>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-old-ie-min.css">
+
 <link type='type/css' rel='stylesheet' href='contact.css'>
 	<title>Contact</title>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.js"></script>
@@ -30,7 +36,7 @@ $(function(){
 	$('a').hover(
 
 		function(){
-			$(this).css('color', '#1192C2')
+			$(this).css('color', 'black')
 		},
 		function(){
 			$(this).css('color',  'white')
@@ -45,8 +51,22 @@ $(function(){
 
 </head>
 
+<div class='header'>
+<div class = 'home-menu pure-menu pure-menu-horizontal pure-menu-fixed pure-menu-custom'>
 
-<div class='header'> Contact <span style='color:#1192C2'> | </span> Michael J. Stokes</div>
+<p id='Contact-Michael'>Contact <span style='color:#1192C2'> | </span> Michael J. Stokes</p>
+
+
+<ul class= "pure-menu-list">
+<li class = "pure-menu-item "><a href="/" class='pure-menu-link'>Home</a></li>
+<li class="pure-menu-item"><a href="/about" class='pure-menu-link'>About</a></li>
+<li class='pure-menu-item'><a href='/portfolio' class="pure-menu-link">Work</a></li>
+<li class='pure-menu-item pure-menu-selected'><a href="/contact" class='pure-menu-link'><span style='color:#1192C2'>Contact</span></a></li>
+</ul>
+</div>
+</div>
+
+
 
 
 <body>
@@ -63,8 +83,12 @@ $(function(){
 </div>
 </center> 
 
+
 </body>
 
-<div class='footer'> <a href='/'>Home</a> | <a href='/about'>About</a> |<a href='/portfolio'> Work </a> </div>
+<div class='footer 1-box is-center'>
+</div>
+
+
 
 </html>

@@ -2,7 +2,7 @@
 .home-menu {
 	padding-top:-1.5em;
 	color:white;
-	font-size:250%;
+	font-size:200%;
 	background-color: #222424;
 	position:fixed;
 	text-align: left;
@@ -14,6 +14,10 @@
 
 }
 
+#white-text{
+	color:white;
+}
+
 
 .home-menu a{
 	
@@ -23,6 +27,8 @@
 
 .home-menu ul{
 	float:right;
+	
+
 
 }
 
@@ -32,6 +38,7 @@
 	font-family: 'Six Caps', sans-serif;
 	font-size:90%;
 	letter-spacing: 0.5em;
+	top:0;
 }
 
 .pure-menu-item {
@@ -40,16 +47,101 @@
 	
 
 }
-/*video#splashvid {
-	
-	-webkit-background-size:cover;
-	overflow: hidden;
-}*/
+
 
 video#splashvid {
 	
 	position:fixed;
-	top:8.3em;
+	top:5em;
+	left:0;
+	width:100% !important;
+	height:auto !important;
+	z-index:-1;
+	overflow: hidden;
+
+	
+
+}
+
+#splash-container {
+	text-align: center;
+}
+
+.footer  {
+	padding-bottom: 20px;
+	background-color: #222424;
+	position:fixed;
+ 	left:0;
+ 	bottom: 0;
+ 	width: 100%;
+ 	margin: 0 auto;
+
+}
+
+.profession {
+	color:white;
+	font-size:200%;
+	font-family: 'Six Caps', sans-serif;
+	letter-spacing: 0.5em;
+	text-align: center;
+}
+
+#center-text {
+	position:absolute;
+	top:200px;
+	left:540px;
+	color:black;
+	font-family: 'Six Caps', sans-serif;
+	font-size: 500%;
+	text-align: center;
+	z-index:1;
+	/*background-color: black;
+	opacity: 0.9;
+	width:100%;
+	left:0;*/
+
+
+
+}
+.typed-cursor{
+	opacity:1;
+	-webkit-animation: blink 0.7s infinite;
+	-moz-animation: blink 0.7s infinite;
+	animation: blink 0.7s infinite;
+}
+
+@keyframes blink{
+	0% {opacity:1;}
+	50% {opacity:0;}
+	100%{opacity:1;}
+}
+
+@-webkit-keyframes blink{
+	0% {opacity:1;}
+	50%{opacity:0;}
+	100%{opacity:1;}
+
+}
+
+@-moz-keyframes blink{
+	0% {opacity:1;}
+	50%{opacity:0;}
+	100%{opacity:1;}
+}
+
+@media screen and (max-width:48em){
+	.name {
+		position:relative;
+		top:-0.5em;
+		font-family: 'Six Caps' sans-serif;
+		letter-spacing: normal;
+		font-size:100%;
+	}
+
+	video#splashvid {
+	
+	position:fixed;
+	top:5em;
 	left:0;
 	width:100% !important;
 	height:auto !important;
@@ -57,21 +149,20 @@ video#splashvid {
 
 }
 
-.footer  {
-	padding-bottom: 90px;
-	background-color: #222424;
-	position:fixed;
- 	left:0;
- 	bottom: 0;
- 	width: 100%;
- 	margin: 0 auto;
-}
+#center-text{
+	position:absolute;
+	text-align: center;
+	font-size:500%;
+	left:250px;
+	z-index: 1;
 
-@media screen and (max-width:48em){
-	.name {
-		font-family: 'Six Caps' sans-serif;
-		letter-spacing: normal;
-		font-size:100%;
-	}
+}
+.profession {
+	color:white;
+	font-size:250%;
+	font-family: 'Six Caps', sans-serif;
+	letter-spacing: normal;
+	text-align: center;
+}
 
 }
