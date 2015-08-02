@@ -4,6 +4,10 @@
 <meta charset='UTF-8'>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
+<link href='http://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Six+Caps' rel='stylesheet' type='text/css'>
+
+
 <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
 
 <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
@@ -19,6 +23,18 @@
 $(function(){
 
 
+
+			window.onload = function(){
+				var $video = $('.splash-container');
+				var $msg = $('#center-text');
+				var $msgTop = $video.offsetHeight/2 - $msg.offsetHeight/2;
+				var $msgLeft = $video.offsetWidth/2 - $msg.offsetWidth/2;
+				$msg.style.left = $msgLeft + 'px';
+				$msg.style.top = $msgTop + 'px';
+			};
+
+
+
 		$('body').css('display', 'none');
 		$('body').fadeIn(1000);
 
@@ -31,7 +47,6 @@ $(function(){
 
 		function newpage() {
 			window.location = newLocation
-		}
 
 	$('a').hover(
 
@@ -39,11 +54,13 @@ $(function(){
 			$(this).css('color', 'black')
 		},
 		function(){
-			$(this).css('color',  'white')
+		
+			$(this).css('color', 'white')
 
 	});
 
 
+};
 });
 
 	</script>
@@ -71,6 +88,24 @@ $(function(){
 
 <body>
 
+<div class='splash-container'>
+<div class='splash'>
+
+<video width='512' height='288' id="splashvid" preload='none' autoplay loop muted>
+
+
+
+<source src="/video/foot_traffic.mp4" type="video/mp4">
+<source src="/video/foot_traffic.ogv" type="video/ogv">
+<source src="/video/foot_traffic.webm" type="video/webm">
+
+
+
+
+</video>
+
+<div id="center-text">
+
 <center>
 <div class='container'>
 <div id='div1'><img src='http://i.imgur.com/5vbX14w.png' height='50' width='50'> <p>3 3 6 . 6 9 3 . 5 5 8 0</p></div>
@@ -84,9 +119,19 @@ $(function(){
 </center> 
 
 
+</div>
+
+
+</div>
+</div>
+
+
+
+
 </body>
 
 <div class='footer 1-box is-center'>
+<p class='copyright'>Copyright &copy; 2015</p>
 </div>
 
 
