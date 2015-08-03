@@ -1,9 +1,12 @@
+*{
+	margin:0;
+}
 
-
-body {
+html body {
 
 	background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('http://i.imgur.com/kMapVgT.jpg');
 	background-size: 1000px;
+	height: 100%;
 }
 
 
@@ -22,16 +25,57 @@ body {
 
 }
 
+#div1 {
+	overflow: visible;
+}
 
-.footer  {
+
+.footer {
 	padding-bottom: 50px;
 	background-color: #222424;
 	position:fixed;
  	left:0;
  	bottom: 0;
- 	width: 100%;
- 	margin: 0 auto;
+ 	width: 120%;
+ 	margin:-50px;
+ 	height:50px;
+ 	z-index:999;
+ 	clear:both;
 
+}
+.footer, .push{
+	height:4em;
+
+}
+
+.copyright {
+
+	font-family: 'Six Caps', sans-serif;
+	font-size:30px;
+ 	color:white;
+ 	position:absolute;
+ 	letter-spacing:normal;
+ 	left:5%;
+
+
+}
+
+
+
+
+.social-links {
+	position:absolute;
+	top:0%;
+	left:70%;
+	font-family: 'Six Caps', sans-serif;
+	font-size:30px;
+	color:white;
+	letter-spacing: normal;
+}
+
+.social-links img{
+	height:auto;
+	width:25px;
 }
 
 
@@ -55,8 +99,17 @@ body {
 	font-family: 'Six Caps', sans-serif;
 	font-size:90%;
 	letter-spacing: 0.5em;
-	top:0;
+	position: relative;
+	top:0.7em;
+
 }
+
+.pure-img-responsive {
+	position:relative;
+	left:12%;
+	top:0.1em;
+}
+
 
 .pure-menu-item {
 	display:inline-block;
@@ -72,9 +125,14 @@ body {
 	background:none;
 }
 
-.container {
+#container {
 	position:relative;
 	top:10em;
+	display: block;
+	height: 100%;
+	height:auto !important;
+	min-height: 100%;
+	padding-bottom: -150px;
 }
 
 
@@ -93,10 +151,66 @@ body {
 	list-style-type: none;
 }
 
+h2 {
+	text-decoration: underline;
+}
+
+h3 {
+	color:#1192C2;
+}
+
 
 @media screen and (max-width: 750px) {
+
  #About-Michael {
- 	font-family: 'Six Caps', sans-serif
- }
+		position:relative;
+		top:0.5em;
+		font-family: 'Six Caps' sans-serif;
+		letter-spacing: normal;
+		font-size:100%;
+	}
+
+ .social-links {
+	position:absolute;
+	top:0%;
+	left:60%;
+}
+
+.social-links img{
+
+	height:auto;
+	width:25px;
+
+}
+
+.copyright {
+	position: absolute;
+	left:7%;
+}
  
+ .pure-img-responsive {
+	position:relative;
+	left:1.5%;
+	top:0.1em;
+}
+
+.home-menu ul{
+	position: relative;
+	top:-3.3em;
+	left:3%;
+}
+
+
+
+#container {
+	position:relative;
+	top:15em;
+	display: block;
+	height: 100%;
+	height:auto !important;
+	min-height: 100%;
+	padding-bottom: -150px;
+}
+
+
 }

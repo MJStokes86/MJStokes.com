@@ -1,4 +1,6 @@
-
+html body {
+height: 100%;
+}
 
 .home-menu {
 	padding-top:-1.5em;
@@ -16,15 +18,22 @@
 }
 
 
-.footer  {
-	padding-bottom: 1px;
+.footer {
+	padding-bottom: 50px;
 	background-color: #222424;
 	position:fixed;
  	left:0;
  	bottom: 0;
- 	width: 100%;
- 	margin: 0 auto;
- 	
+ 	width: 120%;
+ 	margin:-50px;
+ 	height:50px;
+ 	z-index:999;
+ 	clear:both;
+
+}
+.footer, .push{
+	height:4em;
+
 }
 
 .copyright {
@@ -32,7 +41,25 @@
 	font-family: 'Six Caps', sans-serif;
  	font-size:30px;
  	color:white;
+ 	position:absolute;
+ 	top:-10%;
+ 	left:5%;
 
+
+}
+
+.social-links {
+	position:absolute;
+	top:-10%;
+	left:70%;
+	font-family: 'Six Caps', sans-serif;
+	font-size:30px;
+	color:white;
+}
+
+.social-links img{
+	height:auto;
+	width:25px;
 }
 
 
@@ -56,7 +83,8 @@
 	font-family: 'Six Caps', sans-serif;
 	font-size:90%;
 	letter-spacing: 0.5em;
-	top:0;
+	position: relative;
+	top:-0.3em;
 }
 
 .pure-menu-item {
@@ -79,26 +107,26 @@
 
 
 
-.container {
+#container {
 
 	font-family: 'Six Caps' sans-serif;
 	font-size:35px;
-	color:black;
+	color:white;
 	text-align: center;
 }
- .container p {
+ #container p {
 
  	position: absolute;
  	left: 50%;
  	top: -1em;
  }
 
- .container a {
- 	color:black;
+ #container a {
+ 	color:white;
  	text-decoration: none;
  }
 
- .container a:hover {
+ #container a:hover {
  	color:#1192C2;
  }
 
@@ -144,7 +172,7 @@
 	background-color:#3C4142;
 	position: absolute;
 	width:100%;
-	top: 25%;
+	top: 23%;
 }
 
 #div1 img {
@@ -159,7 +187,7 @@
 	background-color:#3C4142;
 	position: absolute;
 	width:100%;
-	top: 40%;
+	top: 38%;
 }
 
 #div2 img {
@@ -174,7 +202,7 @@
 	background-color:#3C4142;
 	position: absolute;
 	width:100%;
-	top: 55%;
+	top: 53%;
 }
 
 #div3 img {
@@ -189,7 +217,7 @@
 	background-color:#3C4142;
 	position: absolute;
 	width:100%;
-	top: 70%;
+	top: 68%;
 }
 
 #div4 img {
@@ -199,10 +227,12 @@
 	top: 0em;
 }
 
+
+
 @media screen and (max-width:48em){
 	.name {
 		position:relative;
-		top:-0.5em;
+		top:0.5em;
 		font-family: 'Six Caps' sans-serif;
 		letter-spacing: normal;
 		font-size:100%;
@@ -229,28 +259,48 @@
 	top:-0.5em;
 }
 
-.container #div1  {
+#container #div1  {
 	position:absolute;
-	top:4em;
+	top:3em;
 
 }
 
-.container #div2  {
+#container #div2  {
 	position:absolute;
-	top:6em;
+	top:5em;
 
 }
-.container #div3 {
+#container #div3 {
 	position:absolute;
-	top:8em;
+	top:7em;
 
 }
-.container  #div4 {
+#container  #div4 {
 	position:absolute;
-	top:10em;
+	top:9em;
+
+}
+.social-links {
+	position:absolute;
+	top:-10%;
+	left:60%;
+}
+
+.social-links img{
+
+	height:auto;
+	width:25px;
 
 }
 
+.copyright {
+	position: absolute;
+	left:7%;
+}
+
+.footer{
+	padding:50px;
+}
 	
 
 }
