@@ -379,7 +379,7 @@ video#splashvid {
 
 #container {
 	position:relative;
-	top:0;
+	top:3em;
 	left:-10%;
 	display: block;
 	height: 100%;
