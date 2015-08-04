@@ -375,6 +375,29 @@ video#splashvid {
 	font-size:15px;
 }
 
+#container #div1  {
+	position:absolute;
+	top:3em;
+
+}
+
+
+#container #div2  {
+	position:absolute;
+	top:6em;
+
+}
+#container #div3 {
+	position:absolute;
+	top:9em;
+
+}
+#container  #div4 {
+	position:absolute;
+	top:12em;
+
+}
+
 #container img {
 	height:27px;
 	width:27px;
