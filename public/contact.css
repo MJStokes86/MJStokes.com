@@ -337,6 +337,20 @@ video#splashvid {
 
 }
 
+.footer {
+	padding-bottom: 20px;
+	background-color: #222424;
+	position:fixed;
+ 	left:0;
+ 	bottom: 0;
+ 	width: 120%;
+ 	margin:-50px;
+ 	height:50px;
+ 	z-index:999;
+ 	clear:both;
+
+}
+
 
 
 
