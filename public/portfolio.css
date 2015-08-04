@@ -204,4 +204,93 @@ height: 100%;
 	left:7%;
 }
 
+@media only screen and (max-device-width:480px){
+
+#Michael-Portfolio {
+		position:relative;
+		top:0.1em;
+		font-family: 'Six Caps' sans-serif;
+		letter-spacing: normal;
+		font-size:50%;
+	}
+
+ .social-links {
+	position:absolute;
+	top:0%;
+	left:60%;
+}
+
+.social-links img{
+
+	height:auto;
+	width:25px;
+
+}
+
+.copyright {
+	position: absolute;
+	left:7%;
+}
+ 
+
+
+.home-menu ul{
+	position: relative;
+	top:0em;
+	left:-5%;
+	font-size:50%;
+}
+
+
+
+#container {
+	position:relative;
+	top:7em;
+	display: block;
+	height: 100%;
+	height:auto !important;
+	min-height: 100%;
+	padding-bottom: -150px;
+	font-size:10px;
+}
+
+img {
+	height:100px;
+	width:100px;
+}
+
+h2,h3{
+	font-size:15px;
+
+}
+
+
+
+h4 ,li{
+	font-size:12px;
+}
+
+.social-links {
+	position:absolute;
+	top:9%;
+	left:60%;
+	font-size: 15px;
+}
+
+.social-links img{
+
+	height:auto;
+	width:17px;
+
+}
+
+.copyright {
+	position: absolute;
+	top:10%;
+	left:15%;
+	font-size:15px;
+}
+
+}
+
 }

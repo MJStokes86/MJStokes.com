@@ -151,7 +151,7 @@ video#splashvid {
 	100%{opacity:1;}
 }
 
-@media screen and (max-width:48em){
+@media only screen and (max-width:48em){
 	.name {
 		position:relative;
 		top:-0.5em;
@@ -190,6 +190,66 @@ video#splashvid {
 	letter-spacing: normal;
 	position:absolute;
 	top:-20%;
+	left:30%;
+}
+
+}
+
+@media only screen and (max-device-width: 480px) {
+
+	body {
+		background-color: black;
+	}
+
+
+video#splashvid {
+	
+	position:fixed;
+	top:8em;
+	left:0;
+	width:100% !important;
+	height:auto !important;
+	
+
+}
+
+
+#center-text{
+	position:absolute;
+	text-align: center;
+	font-size:150%;
+	top:9em;
+	left:110px;
+	z-index: 1;
+
+}
+
+.name {
+		position:relative;
+		top:-0.5em;
+		font-family: 'Six Caps' sans-serif;
+		letter-spacing: normal;
+		font-size:50%;
+	}
+
+	.home-menu ul{
+	float:right;
+	font-size:50%;
+	
+
+
+}
+
+.footer{
+	padding:50px;
+}
+.profession {
+	color:white;
+	font-size:130%;
+	font-family: 'Six Caps', sans-serif;
+	letter-spacing: normal;
+	position:absolute;
+	top:15%;
 	left:30%;
 }
 

@@ -144,20 +144,6 @@ height: 100%;
 
 }
 
-/*#center-text {
-	position:absolute;
-	top:200px;
-	left:540px;f
-	color:black;
-	font-family: 'Six Caps', sans-serif;
-	font-size: 500%;
-	text-align: center;
-	z-index:1;
-	/*background-color: black;
-	opacity: 0.9;
-	width:100%;
-	left:0;*/
-
 
 
 }*/
@@ -253,16 +239,22 @@ height: 100%;
 	float:left;
 	color:white;
 	font-family: 'Six Caps', sans-serif;
-	font-size:90%;
+	font-size:95%;
 	letter-spacing: normal;
 	position:relative;
-	top:-0.5em;
+	top:-0.4em;
 }
 
 #container #div1  {
 	position:absolute;
 	top:3em;
 
+}
+
+#container {
+	position:relative;
+	top:0.5em;
+	left:-10%;
 }
 
 #container #div2  {
@@ -302,5 +294,102 @@ height: 100%;
 	padding:50px;
 }
 	
+
+}
+
+@media only screen and (max-device-width:480px){
+
+#Contact-Michael {
+		position:relative;
+		top:-0.5em;
+		font-family: 'Six Caps' sans-serif;
+		letter-spacing: normal;
+		font-size:50%;
+	}
+
+
+body {
+		background-color: black;
+	}
+
+
+video#splashvid {
+	
+	position:fixed;
+	top:8em;
+	left:0;
+	width:100% !important;
+	height:auto !important;
+	
+
+}
+
+
+
+
+ .social-links {
+	position:absolute;
+	top:0%;
+	left:60%;
+}
+
+.social-links img{
+
+	height:auto;
+	width:25px;
+
+}
+
+
+.home-menu ul{
+	position: relative;
+	top:0em;
+	left:0;
+	font-size:50%;
+}
+
+
+
+#container {
+	position:relative;
+	top:7em;
+	left:-10%;
+	display: block;
+	height: 100%;
+	height:auto !important;
+	min-height: 100%;
+	padding-bottom: -150px;
+	font-size:15px;
+}
+
+#container img {
+	height:27px;
+	width:27px;
+}
+
+
+
+.social-links {
+	position:absolute;
+	top:9%;
+	left:50%;
+	font-size: 15px;
+}
+
+.social-links img{
+
+	height:auto;
+	width:17px;
+
+}
+
+.copyright {
+	position: absolute;
+	top:9%;
+	left:15%;
+	font-size:15px;
+}
+
+}
 
 }
