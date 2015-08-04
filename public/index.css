@@ -199,6 +199,8 @@ video#splashvid {
 
 	body {
 		background-color: black;
+		background-image: url('http://i.imgur.com/JR4lk6p.jpg');
+		background-size:cover no-repeat;
 	}
 
 
@@ -222,7 +224,7 @@ video#splashvid {
 	top:5em;
 	left:110px;
 	z-index: 1;
-	color:white;
+	color:black;
 
 }
 
