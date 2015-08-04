@@ -160,7 +160,7 @@ h3 {
 }
 
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 48em) {
 
  #About-Michael {
 		position:relative;
@@ -169,6 +169,7 @@ h3 {
 		letter-spacing: normal;
 		font-size:100%;
 	}
+
 
  .social-links {
 	position:absolute;
