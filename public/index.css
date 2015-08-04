@@ -209,6 +209,7 @@ video#splashvid {
 	left:0;
 	width:100% !important;
 	height:auto !important;
+	display:none;
 	
 
 }
@@ -221,6 +222,7 @@ video#splashvid {
 	top:9em;
 	left:110px;
 	z-index: 1;
+	color:white;
 
 }
 
