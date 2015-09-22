@@ -3,9 +3,10 @@
 }
 
 html body {
-background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('http://i.imgur.com/H9Ho0c7.jpg') no-repeat;
+background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('http://i.imgur.com/H9Ho0c7.jpg') repeat;
 -webkit-background-size:cover;
 height: 100%;
+overflow: auto;
 }
 
 .home-menu {
@@ -29,7 +30,7 @@ height: 100%;
 	background-color: #222424;
 	position:fixed;
  	left:0;
- 	bottom: 0;
+ 	bottom: 3.5em;
  	width: 120%;
  	margin:-50px;
  	height:50px;
@@ -111,8 +112,8 @@ height: 100%;
 }
 
 
-.snap-shot:hover {
-	border: solid white 5px;
+.snap-shot{
+	
 	display: block;
 }
 #container {
