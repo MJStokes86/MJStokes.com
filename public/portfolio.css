@@ -182,8 +182,6 @@ a {
         text-decoration: none;
     }
 
-/*carousel{width:640px;
-       height:360px;}*/
 
 /* Container */
 .container-fluid {
@@ -340,6 +338,8 @@ height: 100%;
 	left:7%;
 }
 
+
+}
 @media only screen and (max-device-width:480px){
 
 #Michael-Portfolio {
@@ -393,6 +393,7 @@ height: 100%;
 img {
 	height:100px;
 	width:100px;
+
 }
 
 h2,h3{
@@ -427,6 +428,6 @@ h4 ,li{
 	font-size:15px;
 }
 
-}
 
 }
+
