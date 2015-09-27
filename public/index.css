@@ -83,6 +83,7 @@ video#splashvid {
 }
 
 
+
 .footer {
 	padding-bottom: 50px;
 	background-color: #222424;
@@ -109,7 +110,7 @@ video#splashvid {
 	letter-spacing: 0.5em;
 	position:absolute;
 	top:-20%;
-	left:25%;
+	left:15%;
 }
 
 #center-text {
