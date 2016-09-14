@@ -118,7 +118,7 @@ background-color: #222424;
  #container p {
 
  	position: absolute;
- 	left: 50%;
+ 	left: 40%;
  	top: -1em;
  }
 
@@ -163,7 +163,7 @@ background-color: #222424;
 #div1 img {
 
 	position:absolute;
-	left:42%;
+	left:35%;
 	top: 0em;
 }
 
@@ -178,7 +178,7 @@ background-color: #222424;
 #div2 img {
 
 	position:absolute;
-	left:42%;
+	left:35%;
 	top: 0em;
 }
 
@@ -193,7 +193,7 @@ background-color: #222424;
 #div3 img {
 
 	position:absolute;
-	left:42%;
+	left:35%;
 	top: 0em;
 }
 
@@ -208,7 +208,7 @@ background-color: #222424;
 #div4 img {
 
 	position:absolute;
-	left:42%;
+	left:35%;
 	top: 0em;
 }
 
