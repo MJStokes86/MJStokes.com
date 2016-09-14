@@ -1,0 +1,306 @@
+*{
+	margin:0;
+}
+
+html body {
+
+	background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('http://i.imgur.com/kMapVgT.jpg');
+	background-size: 1000px;
+	height: 100%;
+}
+
+
+.home-menu {
+	padding-top:-1.5em;
+	color:white;
+	font-size:200%;
+	background-color: #222424;
+	position:fixed;
+	text-align: left;
+	top:0;
+	left:0;
+	width:100%;
+	margin:auto;
+
+
+}
+
+#div1 {
+	overflow: visible;
+}
+
+
+.footer {
+	padding-bottom: 50px;
+	background-color: #222424;
+	position:fixed;
+ 	left:0;
+ 	bottom: 0;
+ 	width: 120%;
+ 	margin:-50px;
+ 	height:50px;
+ 	z-index:999;
+ 	clear:both;
+
+}
+.footer, .push{
+	height:4em;
+
+}
+
+.copyright {
+
+	font-family: 'Six Caps', sans-serif;
+	font-size:30px;
+ 	color:white;
+ 	position:absolute;
+ 	letter-spacing:normal;
+ 	left:5%;
+
+
+}
+
+
+
+
+.social-links {
+	position:absolute;
+	top:0%;
+	left:70%;
+	font-family: 'Six Caps', sans-serif;
+	font-size:30px;
+	color:white;
+	letter-spacing: normal;
+}
+
+.social-links img{
+	height:auto;
+	width:25px;
+}
+
+
+.pure-menu-item a{
+	
+	background:none;
+	text-decoration: none;
+	color:white;
+}
+
+.home-menu ul{
+	float:right;
+	
+
+
+}
+
+#About-Michael {
+	float:left;
+	color:white;
+	font-family: 'Six Caps', sans-serif;
+	font-size:90%;
+	letter-spacing: 0.5em;
+	position: relative;
+	top:0.7em;
+
+}
+
+.pure-img-responsive {
+	position:relative;
+	left:12%;
+	top:0.1em;
+}
+
+
+.pure-menu-item {
+	display:inline-block;
+	font-family: "Six Caps", sans-serif;
+	letter-spacing: normal;
+	background:none;
+	
+
+}
+
+
+.pure-menu-custom li {
+	background:none;
+}
+
+#container {
+	position:relative;
+	top:10em;
+	display: block;
+	height: 100%;
+	height:auto !important;
+	min-height: 100%;
+	padding-bottom: -150px;
+}
+
+
+#div1 ,.pure-g [class = "pure-u-1-2"] {
+	color: white;
+	font-family: 'Oswald', sans-serif;
+}
+
+#div1 , .pure-g [class = 'pure-u-1-2'] a {
+	color: white;
+	text-decoration: none;
+
+}
+
+.skills li{
+	list-style-type: none;
+}
+
+h2 {
+	text-decoration: underline;
+}
+
+h3 {
+	color:#1192C2;
+}
+
+
+@media screen and (max-width: 48em) {
+
+ #About-Michael {
+		position:relative;
+		top:0.5em;
+		font-family: 'Six Caps' sans-serif;
+		letter-spacing: normal;
+		font-size:100%;
+	}
+
+
+ .social-links {
+	position:absolute;
+	top:0%;
+	left:60%;
+}
+
+.social-links img{
+
+	height:auto;
+	width:25px;
+
+}
+
+.copyright {
+	position: absolute;
+	left:7%;
+}
+ 
+ .pure-img-responsive {
+	position:relative;
+	left:1.5%;
+	top:0.1em;
+}
+
+.home-menu ul{
+	position: relative;
+	top:-3.3em;
+	left:3%;
+}
+
+
+
+#container {
+	position:relative;
+	top:15em;
+	display: block;
+	height: 100%;
+	height:auto !important;
+	min-height: 100%;
+	padding-bottom: -150px;
+}
+
+
+}
+
+@media only screen and (max-device-width:480px){
+
+#About-Michael {
+		position:relative;
+		top:0.1em;
+		font-family: 'Six Caps' sans-serif;
+		letter-spacing: normal;
+		font-size:50%;
+	}
+
+ .social-links {
+	position:absolute;
+	top:0%;
+	left:60%;
+}
+
+.social-links img{
+
+	height:auto;
+	width:25px;
+
+}
+
+.copyright {
+	position: absolute;
+	left:7%;
+}
+ 
+ .pure-img-responsive {
+	position:absolute;
+	left:1.5%;
+	top:5em;
+	display:none;
+
+}
+
+.home-menu ul{
+	position: relative;
+	top:0em;
+	left:-5%;
+	font-size:50%;
+}
+
+
+
+#container {
+	position:relative;
+	top:5em;
+	display: block;
+	height: 100%;
+	height:auto !important;
+	min-height: 100%;
+	padding-bottom: -150px;
+}
+
+h2,h3{
+	font-size:15px;
+
+}
+
+
+
+h4 ,li{
+	font-size:12px;
+}
+
+.social-links {
+	position:absolute;
+	top:9%;
+	left:60%;
+	font-size: 15px;
+}
+
+.social-links img{
+
+	height:auto;
+	width:17px;
+
+}
+
+.copyright {
+	position: absolute;
+	top:10%;
+	left:15%;
+	font-size:15px;
+}
+
+}

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="true">
+<link href='http://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Six+Caps' rel='stylesheet' type='text/css'>
+
+
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-old-ie-min.css">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+<link type='text/css'rel='stylesheet' href='portfolio.css'>
+
+
+<title>Portfolio</title>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+
+
+<script type='text/javascript'>
+$(function(){
+
+
+    $('.carousel').carousel({
+      interval: 3000
+    })
+
+
+		$('body').css('display', 'none');
+		$('body').fadeIn(1000);
+
+		$('.pure-menu-link').click(function(){
+			event.preventDefault();
+			newLocation = this.href;
+
+			$('body').fadeOut(1000, newpage);
+		})
+
+		function newpage() {
+			window.location = newLocation
+		}
+
+
+	$('.pure-menu-link').hover(
+
+		function(){
+			$(this).css('color', 'black')
+		},
+		function(){
+			$(this).css('color',  'white')
+
+	});
+
+
+
+});
+
+</script>
+</head>
+
+<body>
+
+
+<div class='header'>
+<div class = 'home-menu pure-menu pure-menu-horizontal pure-menu-fixed'>
+
+<p id='Michael-Portfolio'>Michael J. Stokes <span style='color:#1192C2'>|</span> Portfolio</p>
+
+<ul class= "pure-menu-list">
+<li class = "pure-menu-item"><a href="/" class='pure-menu-link'>Home</a></li>
+
+<li class="pure-menu-item"><a href="/about" class='pure-menu-link'>About</a></li>
+<li class='pure-menu-item pure-menu-selected'><a href='/portfolio' class="pure-menu-link"><span style='color:#1192C2'>Portfolio</span></a></li>
+<li class='pure-menu-item'><a href="/contact" class='pure-menu-link'>Contact</a></li>
+</ul>
+</div>
+</div>
+
+<!-- Slider -->
+
+
+<div class="container-fluid">
+<div class="row-fluid">
+<div class="span12">
+
+  <!--   <div class="page-header">
+        <h3>Bootstrap</h3>
+        <p>Responsive Carousel Demo</p>
+    </div> -->
+        
+    <div class="carousel slide" id="myCarousel">
+        <div class="carousel-inner">
+ 
+            <div class="item active">
+            
+                <div class="bannerImage">
+                    <a href="https://namethattube.herokuapp.com"><img src="http://i.imgur.com/Zn2s3B7.png" alt="Name That Tube"></a>
+                </div>
+                            
+                <div class="caption row-fluid">
+                    <div class="span4"><h3>Name That Tube</h3>
+                    </div>                	
+                	<div class="span8"><p>A YouTube-based trivia game that gives a player a series video clues of questions to answer. 
+					<p>Ruby on Rails | PostgreSQL | jQuery | HTML5/CSS3 </p>
+<a style = 'color:black' class="btn btn-default" href="https://github.com/MJStokes86/Name-That-Tube-2.0">View on GitHub</a>
+<a class="btn btn-primary" href="https://namethattube.herokuapp.com">View Website</a></p>
+
+                	</div>
+                </div>
+                                                         
+            </div><!-- /Slide1 --> 
+
+            <div class="item">
+            
+                <div class="bannerImage">
+                    <a href="https://stokes-movie-app.herokuapp.com"><img src="http://i.imgur.com/Lat7RqD.png" alt="Movie App"></a>
+                </div>
+                            
+                <div class="caption row-fluid">
+                    <div class="span4"><h3>Movie Review</h3>
+                    </div>                	
+                	<div class="span8"><p>A simple movie review app that allows users to rate films of the user's choice. 
+<p>Ruby on Rails | PostgreSQL | HTML5/CSS3 | Devise </p>
+<a style = 'color:black' class="btn btn-default" href="https://github.com/MJStokes86/Movie-Review-App">View on GitHub</a>
+<a class="btn btn-primary" href="https://stokes-movie-app.herokuapp.com">View Website</a></p>
+                	</div>
+                </div>
+                                                         
+            </div><!-- /Slide2 -->             
+
+            <div class="item">
+            
+                <div class="bannerImage">
+                    <a href="http://stokesblog.herokuapp.com"><img src="http://i.imgur.com/F9fo8pL.png" alt="Rails Blog">
+                </div>
+                            
+                <div class="caption row-fluid">
+                    <div class="span4"><h3>Rails Blog</h3>
+                    </div>                	
+                	<div class="span8"><p>A simple blogging application that allows users to post content of their interests. 
+<p>Ruby on Rails | PostgreSQL | HTML5/CSS3 | Devise </p>
+<a style = 'color:black' class="btn btn-default" href="https://github.com/MJStokes86/Rails-Blog">View on GitHub</a>
+<a class="btn btn-primary" href="https://stokesblog.herokuapp.com">View Website</a></p>
+                	</div>
+                </div>
+                                                         
+            </div><!-- /Slide3 --> 
+
+            <div class="item">
+            
+                <div class="bannerImage">
+                    <a href="https://github.com/WDI-Bulbasaur/Traveling_Football_Fan"><img src="http://i.imgur.com/3sbZ9sx.png" alt="Traveling Football Fan"></a>
+                </div>
+                            
+                <div class="caption row-fluid">
+                    <div class="span4"><h3>Traveling Football Fan</h3>
+                    </div>                  
+                    <div class="span8"><p>A travel app designed for soccer fans who attend games around the world.
+<p>Ruby on Rails | PostgreSQL | HTML5/CSS3 </p>
+<a style = 'color:black' class="btn btn-default" href="https://github.com/WDI-Bulbasaur/Traveling_Football_Fan">View on GitHub</a>
+                    </div>
+                </div>
+                                                         
+            </div><!-- /Slide4 -->                
+
+            <div class="item">
+            
+                <div class="bannerImage">
+                    <a href="https://github.com/MJStokes86/ToDo-App" ><img src="http://i.imgur.com/7S76TY3.png" alt="ToDo App"></a>
+                </div>
+                            
+                <div class="caption row-fluid">
+                    <div class="span4"><h3>ToDo App</h3>
+                    </div>                	
+                	<div class="span8"><p>A simple to do app designed for anyone who want to be organized for their daily tasks.
+<p>Ruby on Rails | PostgreSQL | HTML5/CSS3 </p>
+<a style = 'color:black' class="btn btn-default" href="https://github.com/MJStokes86/ToDo-App">View on GitHub</a>
+<a class="btn btn-primary" href="http://stokes-todo-app.herokuapp.com/">View Website</a></p>
+
+                	</div>
+                </div>
+                                                         
+            </div><!-- /Slide5 -->                 
+
+
+  
+  				     
+ 
+        </div>
+        
+        <div class="control-box">                            
+            <a data-slide="prev" href="#myCarousel" role='button' class="carousel-control left"><span class=" btn btn-circle glyphicon glyphicon-menu-left"></span></a>
+            <a data-slide="next" href="#myCarousel" role='button' class="carousel-control right"><span class="btn btn-circle glyphicon glyphicon-menu-right"></span></a>
+        </div><!-- /.control-box -->   
+                              
+    </div><!-- /#myCarousel -->
+        
+</div><!-- /.span12 -->          
+</div><!-- /.row --> 
+</div><!-- /.container -->
+
+                            
+
+
+<!--End Slider -->
+
+
+
+<!-- div class='push'></div>
+
+<div class='footer 1-box is-center'>
+<p class='copyright'>Michael J. Stokes <span style='color:#1192C2'>|</span> Copyright &copy; 2015</p> 
+
+<p class='social-links'>Let's Connect <a href='https://www.facebook.com/MStokesJ86'><img src='http://i.imgur.com/DPvbHKd.png'></a> <a href='https://twitter.com/MStokes86'><img src='http://i.imgur.com/q5AviK5.png'></a>  <a href='https://plus.google.com/u/0/116817601644572193547/posts'><img src='http://i.imgur.com/DQVKk4a.png'></a></p>
+</div> -->
+</body>
+</html>
